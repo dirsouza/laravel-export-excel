@@ -15,7 +15,6 @@ use Maatwebsite\Excel\Concerns\WithMapping;
 use Maatwebsite\Excel\Concerns\WithStrictNullComparison;
 use Maatwebsite\Excel\Excel;
 use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Style\Alignment;
 use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
 
 class CommandErrorExport implements FromCollection, Responsable, ShouldAutoSize, WithCustomStartCell, WithMapping, WithHeadings, WithColumnFormatting, WithStrictNullComparison
