@@ -18,7 +18,7 @@ Projeto desenvolvido para teste do pacote [Laravel Excel](https://laravel-excel.
 
 2. (opcional) Para esse projeto foi utilizado o `sqlite`, para isso edite o `.env` na variável de ambiente `DB_CONNECTION`, troque de `mysql` para `sqlite`.
 
-3. (opcional se o _passo 2_ foi feito) Crie o arquivo `database.sqlite` na pasta `database`:
+3. (obrigatório se o _passo 2_ foi feito) Crie o arquivo `database.sqlite` na pasta `database`:
 
     ```bash
     # bash
